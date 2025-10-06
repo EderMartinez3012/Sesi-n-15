@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sesión 15</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li onclick="mostrarMensaje('Perfil')"><a href="#perfil">Perfil</a></li>
+        <li onclick="mostrarMensaje('Habilidades')"><a href="#habilidades">Habilidades</a></li>
+        <li onclick="mostrarMensaje('Estudios')"><a href="#estudios">Estudios</a></li>
+      </ul>
+    </header>
+
+    <div>
+      <section id="perfil">
+        <article>
+          <p>
+            Lorem, ipsum dolor <span style="color: blue;">sit amet consectetur</span> adipisicing elit. Totam
+            voluptatem eius nam quas velit dolore magnam inventore, obcaecati
+            excepturi error aliquam, beatae, dignissimos doloremque sed harum
+            quisquam ipsum fugit facere!
+          </p>
+        </article>
+      </section>
+
+      <section id="habilidades">
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente vitae deleniti, magnam nesciunt voluptates ratione ducimus enim modi earum doloremque. Perferendis magni saepe aut. Eveniet autem dignissimos placeat non!                
+            </p>
+        </article>
+      </section>
+
+      <section id="estudios">
+        <article>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores earum adipisci expedita quaerat asperiores! Exercitationem facilis repudiandae asperiores neque perspiciatis ex sint eum soluta error quae, ut fugiat voluptatum distinctio?
+            </p>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+        <small>2025 - Universidad Popular del Cesar</small>
+    </footer>
+
+    <script>
+        function mostrarMensaje(seccion) {
+            alert(`Bienvenida/o a la sección ${seccion}`)
+        }
+    </script>
+  </body>
+</html>
